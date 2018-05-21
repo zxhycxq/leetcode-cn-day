@@ -23,6 +23,7 @@ result2.add();
 ```
 
 3、pow two
+如果一个整数是2的幂，那么它的二进制形式最高位为1，其余各位为0
 ```js
 var isPowerOfTwo = function(n) {
     if(n<0){return false}
